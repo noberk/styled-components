@@ -1,7 +1,7 @@
 node_modules
-lib
-npm-debug.log.*
 dist
 .DS_Store
-bundle-stats.html
-.vscode
+*.log
+package-lock.json
+**/styled-components/src/utils/errors.js
+coverage

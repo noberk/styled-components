@@ -8,12 +8,13 @@ Thank you for contributing and please follow this guide before creating an issue
 - Check the docs: https://www.styled-components.com/docs
 - Look for/ask questions on stack overflow: https://stackoverflow.com/questions/ask?tags=styled-components
 - Start a thread on our Spectrum help channel: https://spectrum.chat/styled-components/help
+- Is this about Typescript? TS types are provided by DefinitelyTyped, all issues opened about TS will be closed and referred there.
 
 2. Think you found a bug?
 =============================
 - Consider submitting a PR with a failing test instead
 - Use the "BUG TEMPLATE" below to report a test
-- Don't forget to 👉PROVIDE A REPRODUCTION PLEASE😉 (Codesandbox/Webpackbin links are provided, repositories are ok)
+- Don't forget to 👉PROVIDE A REPRODUCTION PLEASE 😉 (Codesandbox links are provided and most useful, repositories are ok)
 - If you can't provide a reproduction, snippets of code can help, but are incomplete reports
 
 3. Do you have a feature request?
@@ -28,16 +29,14 @@ Please keep it product-centric.
 -->
 
 <!-- BUG TEMPLATE -->
-## Version
-styled-components: 2.2.4
-babel-plugin-styled-components: 1.3.0
-<!-- Please remove babel-plugin-styled-components if it's not applicable -->
+## Environment
+<!-- Please run this command inside your project and paste its contents here (it automatically copies to your clipboard) -->
+`npx envinfo --system --binaries --npmPackages styled-components,babel-plugin-styled-components --markdown --clipboard`
 
 ## Reproduction
 
 <!-- If you can't reproduce your bug, make sure to add details on how you've set up your project -->
-https://www.webpackbin.com/bins/-KeeZCr0xKfutOfOujxN
-https://codesandbox.io/s/rkmNRByE4
+https://codesandbox.io/s/styled-components-base-gc367
 
 ## Steps to reproduce
 
